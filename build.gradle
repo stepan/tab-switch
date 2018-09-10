@@ -1,7 +1,16 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
 plugins {
     id 'java'
     id 'org.jetbrains.intellij' version '0.3.9'
 }
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'java'
 
 group 'com.github.stepan'
 version '1.0-SNAPSHOT'
