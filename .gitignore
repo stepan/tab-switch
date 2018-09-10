@@ -1,0 +1,19 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+.DS_Store
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+build/
+out/
+classes/
+
+# Private config
+gradle.properties
+
+# Generated Code
+gen/
