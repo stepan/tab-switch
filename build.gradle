@@ -17,10 +17,19 @@ dependencies {
 }
 
 intellij {
-    version '2018.1.4'
+    version '2018.2.3'
+    pluginName 'TabSwitch2'
 }
 patchPluginXml {
     changeNotes """
       Add change notes here.<br>
       <em>most HTML tags may be used</em>"""
 }
+
+publishPlugin {
+    username intellijPublishUsername
+    password intellijPublishPassword
+}
+
+group 'com.jetbrains'
+version '0.1.0'

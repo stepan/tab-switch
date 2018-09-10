@@ -25,7 +25,7 @@ public class NextTabAction extends ChangeTabAction {
 
   @Override
   protected boolean moveOnShow() {
-    return true;
+    return false;
   }
 
   @Override
