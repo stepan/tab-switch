@@ -30,9 +30,7 @@ intellij {
     pluginName 'TabSwitch2'
 }
 patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+    changeNotes """"""
 }
 
 publishPlugin {
@@ -41,4 +39,4 @@ publishPlugin {
 }
 
 group 'com.jetbrains'
-version '0.1.0'
+version '0.1.2'
